@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_app">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
+        <can_edit_in_studio>false</can_edit_in_studio>
         <enforce_license>log</enforce_license>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
+        <license_category/>
         <license_model>none</license_model>
         <logo/>
         <menu/>
@@ -33,4 +34,42 @@
         <vendor_prefix/>
         <version>1.0.0</version>
     </sys_app>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ee3b33</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>logo</file_name>
+        <image_height>47</image_height>
+        <image_width>102</image_width>
+        <size_bytes>1215</size_bytes>
+        <size_compressed>1238</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-11 18:49:21</sys_created_on>
+        <sys_id>fbf63e78db703300de01f28239961935</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-04-11 18:49:25</sys_updated_on>
+        <table_name>ZZ_YYsys_app</table_name>
+        <table_sys_id>6ead8e780f603200cd674f8ce1050ed1</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo" sys_id="fbf63e78db703300de01f28239961935">fbf63e78db703300de01f28239961935</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-11 18:49:21</sys_created_on>
+        <sys_id>3ff63e78db703300de01f28239961935</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>Ab8EQPuJUE5HDQoaCgAAAA1JSERSAAAAZgAAAC8IBgAAABGIv8YAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAEYUlEQVR42uxb7W3bMBCVi/6vMkGcCeIC/VnAygRRJ7AzQZwJok4QZwLLE1SZIArQnwUqT1B7gtgTpLz2Mb0cSNdyrA8qPICQLUoyj4939+4o956engIv7ZN3fgo8MF5KyPsuKfP4+VOoDgPVlkfffyxd1qXXhRijAInUIVFtyE5v6JwCaOqBaQaUWB2+sVN3sJpjfJ8rcMY+xtQvExyvVDtSIMSq9dXnM9VWqo0UeFNvMfVbTK4OqQIjNfSRpczwlUBb++BfTWAnt9XHKZpkAqMwgQLJVCNr+QD3lntgDgvKAJN8LLoo4Ee2+8hC1L1038jHmOriCIHyoNoXxJMVLCGFNdlEA+cUfXYixqiJX8NlReJ8CmsgwGIZQ1Q/AXpDIIIQ+ATzgKCMtWVYLGmA/CUH+8oQhybMhU185l+d2FY8AUbgnYKBzVjfCpZUeLpcjdXo+DDQ7gpxhVhWps4lsKwIANL1BWj0OnBQXLEYsoprmnDElTWs5BiuKwBlToOOiCvAUOwgC7lE4+WXadBBcSrzV9bSZ7Gm9gqyrl6r381bBQwGloAJ7Sq0qs9N7klm7EgGQwv76hvYVQGLSQzkQPdNSo73T1WBam6MFY6Dl5VrLQt13QCF1MkrdUw44KUtBuAsQWF3kTMoxrNvY8UXGX4unv18LctbnpN7ZPd030/xuBPEosc9FuwcE51ZAOHVhZ5lbHvpuHfmD5ZTCEr61dDuxIrnsrQ8u5AxQwx4aRiLvu9W9NG1sWF8cwMIvH8DQHIBCvWdAAgC/QLXmsb5Gh0PFvzJ1ycW64rhFmhVV+2W15bcZ8ApMzbVRsLd5Kw/gKs5ZddccJcE0KkUVFl+VCkrUwpkTbO5snkMcqJMnEu3rP5KpNMvY7wiuQwNbLBW8W/JWNyzZEwuJpgh/LaJchaOAiMZ1ghWM64rdzqExVCQvDc0ZzNykAHJ3oih/SJaXIdr867MDs5YUnBtPQygsM3ALJBE8nZhoa+ugUP518fg70acCaAlEsZWxpi1pXaUdsRyKE5GlpcKKXunDbr+obcXvCsrEXewtX3FM36AM/YxpnmAiNTE4nT0FoAJXbAeYTVhV4DZFjD56ls1MThLXsb7w+BldVjnNpsdrYhb3KZpYHhecG5SHnsfpy0gEBO8+mQTmaNp8sNrbEPos5eOdW4tT7BS9Eq7V4O8ZcqMRba9aDBJpTHNAE7KJn4Q/Hv5UMsDK3LqTTk98TP2FqlNx+QgFgPEh2X9K+hkhMFouWSVAj5gyhuikhS0L8aZ7uBGTN/5yicArtkYbwQod/z+kjoutulYdmu5bzG9rMwfhAAuKXQufG2OZ6WW+xJMlJ6IHnueibJO+dbDrtex34qF29ETSuNMt9UCmY4R8xL/1XEvYJoWGzBdFNfymEi4u8AD0w7hcaTwwLTDjUUi8E49MO0QTitvXf+7eCeAERR9jnJ8p6X1rAwu7B45w7SO11PbIK68VH7k6t8pOmsxb1V+CzAAsN8JXTMQv1QAAAAASUVORK5CYIJ+bATkvwQAAA==</data>
+        <length>1640</length>
+        <position>1</position>
+        <sys_attachment display_value="logo" sys_id="fbf63e78db703300de01f28239961935">fbf63e78db703300de01f28239961935</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-11 18:49:21</sys_created_on>
+        <sys_id>bff63e78db703300de01f28239961935</sys_id>
+    </sys_attachment_doc>
 </record_update>
